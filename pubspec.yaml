@@ -1,7 +1,8 @@
 name: common_services
 description: "A new Flutter package project."
 version: 0.0.1
-homepage: https://github.com/yourusername/common_services  # Your project's homepage (GitHub link or any other site)
+homepage: https://github.com/kpmidhlaj/common_services.git
+repository: https://github.com/kpmidhlaj/common_services.git
 
 environment:
   sdk: ^3.6.1
