@@ -1,40 +1,21 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# common_services
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter plugin for common services such as API handling, local storage, Firebase Cloud Messaging (FCM), and more. This plugin provides reusable components for handling API calls, storing data locally, and managing notifications, allowing for easy integration across multiple Flutter projects.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **API Service**: Provides methods for making network requests using Dio.
+- **Local Storage**: Simple wrapper around `SharedPreferences` for storing and retrieving key-value pairs.
+- **Firebase Cloud Messaging (FCM)**: Handles Firebase Cloud Messaging (FCM) notifications, including background and foreground notifications.
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+### 1. Add Dependency to `pubspec.yaml`
 
-## Usage
+To add `common_services` to your Flutter project, add the following dependency in your project's `pubspec.yaml`:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
-# common_services
+```yaml
+dependencies:
+  common_services:
+    git:
+      url: https://github.com/kpmidhlaj/common_services.git
